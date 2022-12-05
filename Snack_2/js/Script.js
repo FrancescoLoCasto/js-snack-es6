@@ -80,7 +80,7 @@
    ]
 
    
-   const dieselCars = [], benzinaCars = [], metanoCars = [], elettricoCars = []
+   const dieselCars = [], benzinaCars = [], otherCars = []
 
    for (let i = 0; i < cars.length; i++) {
          switch(cars[i].alimentazione){
@@ -90,16 +90,12 @@
             case 'diesel':
                dieselCars.push(cars[i])
                break
-            case 'metano':
-               dieselCars.push(cars[i])
-               break
-            case 'elettrico':
-               dieselCars.push(cars[i])
-               break
-         }
+            default:
+               otherCars.push(cars[i]);
+               break;
+          }
   }
 
    console.log('benzina',benzinaCars);
    console.log('diesel',dieselCars);
-   console.log('other',metanoCars)
-   console.log('other',elettricoCars)
+   console.log('other',otherCars)
