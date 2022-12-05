@@ -8,4 +8,73 @@
 
  */
 
-   cars = ["Ferrari", "Fiat", "Lamborghini", "Tesla", "Peugeot", "Dodge", "Bmw", "Audi", "Volskwagen", "Ferrari"]
+
+   const cars = [
+      {
+          marca : 'Ferrari',
+          modello : '599 GTB',
+          alimentazione : 'benzina'
+      },
+
+      {
+         marca : 'Fiat',
+         modello : 'Panda',
+         alimentazione : 'metano'
+      },
+
+      {
+      marca : 'Lamborghini',
+      modello : 'Urus',
+      alimentazione : 'benzina'
+      }, 
+
+      {
+         marca : 'Tesla',
+         modello : 'Model S',
+         alimentazione : 'elettrico'
+      },
+
+      {
+         marca : 'Peugeot',
+         modello : '308',
+         alimentazione : 'diesel'
+      },
+
+      {
+         marca : 'Dodge',
+         modello : 'Challenger',
+         alimentazione : 'benzina'
+      },
+
+      {
+         marca : 'Bmw',
+         modello : '118i',
+         alimentazione : 'benzina'
+      },
+
+      {
+         marca : 'Audi',
+         modello : 'RS6',
+         alimentazione : 'benzina'
+      },
+
+      {
+         marca : 'Audi',
+         modello : 'RS6',
+         alimentazione : 'benzina'
+      },
+
+      {
+         marca : 'Volskwagen',
+         modello : 'Golf',
+         alimentazione : 'diesel'
+      },
+
+      
+      {
+         marca : 'Opel',
+         modello : 'Corsa',
+         alimentazione : 'diesel'
+      }
+
+   ]
