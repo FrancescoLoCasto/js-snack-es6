@@ -78,5 +78,8 @@
 let tot = 0
 
 for(let i = 0; i < zucchine.length; i++){
-   
+
+   tot = tot + zucchine[i].peso
 }
+
+console.log(tot)
