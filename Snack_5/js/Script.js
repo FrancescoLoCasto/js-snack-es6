@@ -18,5 +18,14 @@ const user =  [
     { firstname: 'claudietto', lastname: 'conilpetto', age: 23 },
     { firstname: 'lucas', lastname: 'spacci', age: 36 },
     { firstname: 'giuseppe', lastname: 'senzadenti', age: 16 },
-,
 ]
+
+const userList = user.map((persona) => {
+    if(persona.age > 17){
+        return `${persona.firstname} ${persona.lastname}  tu puoi guidare!`
+    }
+
+    return `${persona.firstname} ${persona.lastname} hei amico tu non puoi guidare!`
+})
+
+console.log(userList)
